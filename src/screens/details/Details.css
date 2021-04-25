@@ -1,0 +1,23 @@
+.backBtn:hover {
+    cursor: pointer;
+}
+
+.backBtn:focus {
+    cursor: pointer;
+}
+
+.split {
+    display: flex;
+}
+
+.split .left {
+    width: 20%;
+}
+
+.split .middle {
+    width: 80%;
+}
+
+.split .right {
+    width: 20%;
+}

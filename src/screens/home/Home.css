@@ -1,0 +1,44 @@
+.home {
+    background-color: #ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.card {
+    height: 250px;
+    width: auto;
+    display: inline-block;
+    margin: .5em;
+    transform: translateZ(0);
+}
+
+.root {
+    display: flex;
+    justify-content: space-around;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.splitContainer {
+    display: flex;
+}
+
+.splitContainer .left {
+    width: 76%;
+}
+
+.splitContainer .right {
+    width: 24%;
+}
+
+.movie-card {
+    height: 350px;
+}
+
+.formControl {
+    max-width: 240px;
+    min-width: 240px;
+    justify-content: center;
+}
