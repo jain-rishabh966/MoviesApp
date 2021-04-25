@@ -10,7 +10,6 @@ import Confirmation from './confirmation/Confirmation';
 export default function () {
     return (
         <div>
-            <Header />
             <Switch>
                 <Route
                     exact path='/'

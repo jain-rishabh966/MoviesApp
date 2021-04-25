@@ -15,6 +15,7 @@ import PropTypes from "prop-types";
 import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import green from "@material-ui/core/colors/green";
 import { Link } from "react-router-dom";
+import Header from '../../common/header/Header';
 
 const styles = (theme) => ({
   close: {
@@ -99,6 +100,7 @@ const Confirmation = (props) => {
 
   return (
     <div className="Details">
+      <Header />
       <div className="confirmation marginTop16">
         <div>
           <Link to={"/bookshow/" + props.match.params.id}>

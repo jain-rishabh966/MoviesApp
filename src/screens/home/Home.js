@@ -2,8 +2,9 @@ import React, { useEffect, useState } from "react";
 import { GridListTile, GridListTileBar } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
-import Movies from "./movies/Movies";
+import Movies from './movies/Movies';
 import Filters from './filters/Filters';
+import Header from '../../common/header/Header';
 import './Home.css';
 
 export default function () {
@@ -95,6 +96,7 @@ export default function () {
 
     return (
         <div>
+            <Header />
             <div className="home">
                 Upcoming Movies
             </div>

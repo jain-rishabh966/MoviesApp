@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import YouTube from "react-youtube";
 import { Link } from 'react-router-dom';
 
+import Header from '../../common/header/Header';
 import './Details.css'
 
 export default function (props) {
@@ -94,6 +95,7 @@ export default function (props) {
 
     return (
         <div>
+            <Header />
             <Typography className="backBtn" style={{ margin: '8px 0 0 24px', height: 24 }}>
                 <Link to={`/`}>{'<'} Back To Home</Link>
             </Typography>

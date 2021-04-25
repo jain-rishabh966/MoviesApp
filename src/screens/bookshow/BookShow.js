@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Typography from "@material-ui/core/Typography";
 import "./BookShow.css";
+import Header from '../../common/header/Header';
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import FormControl from "@material-ui/core/FormControl";
@@ -192,6 +193,7 @@ const BookShow = (props) => {
 
   return (
     <div>
+      <Header />
       <div className="bookShow">
         <Typography className="back">
           <Link to={"/movie/" + props.match.params.id}>
