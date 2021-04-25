@@ -118,6 +118,7 @@ export default function Filters({ genres, artists, setHead, setMovies }) {
                             labelid="genres-label"
                             id="genres"
                             name="genres"
+                            multiple
                             className={`formControl`}
                             open={openGenre}
                             onClose={handleCloseGenre}
@@ -139,6 +140,7 @@ export default function Filters({ genres, artists, setHead, setMovies }) {
                     <FormControl style={spacingStyle}>
                         <InputLabel id="artists-label">Artists</InputLabel>
                         <Select
+                            multiple
                             labelid="artists-label"
                             name="artists"
                             id="artists"

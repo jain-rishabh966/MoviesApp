@@ -102,7 +102,7 @@ export default function (props) {
                     <img src={poster_url} alt="Movie Name" width="85%" />
                 </div>
                 <div className="description middle">
-                    <Typography variant="headline" component="h2">
+                    <Typography variant="h5" component="h2">
                         {title}
                     </Typography>
                     <Typography>
