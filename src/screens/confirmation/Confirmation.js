@@ -19,8 +19,8 @@ import Header from '../../common/header/Header';
 
 const styles = (theme) => ({
   close: {
-    width: theme.spacing.unit * 4,
-    height: theme.spacing.unit * 4,
+    width: theme.spacing(4),
+    height: theme.spacing(4),
   },
   success: {
     color: green[600],
